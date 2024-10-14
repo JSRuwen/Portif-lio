@@ -135,26 +135,26 @@ img {
     border-radius: 3%;
 }
 
-div#prefooter{
+div#posfooter{
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-div#prefooter:hover{
+div#posfooter:hover{
     background-color: white;
     transition: 0.3s ease-in-out
 }
 
-div#prefooter:hover > *{
+div#posfooter:hover > *{
     background-color: white;
     transition: all 0.3s ease-in-out;
     color: black;
 }
 
 
-div#prefooter img#cima{
+div#posfooter img#cima{
     width: 2vw;
     background-color: white;
     border-radius: 100%;
@@ -162,7 +162,7 @@ div#prefooter img#cima{
     
 }
 
-div#prefooter p{
+div#posfooter p{
     color:white;
     font-size: 2vw;
 
@@ -195,7 +195,7 @@ footer img{
     }
 
     main article:hover {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.9);
         display: flex;
         align-items: center;
         justify-content: space-between;
